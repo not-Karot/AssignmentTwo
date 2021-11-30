@@ -1,0 +1,128 @@
+C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\python.exe "C:/Users/RaffaeleScarano/Università/Ing Dati/AssignmentTwo/YahooScraperStock.py"
+[0, 75, 150, 225, 300, 375, 450, 525, 600, 675, 750, 825, 900, 975, 1050, 1125, 1200]
+1200 1125
+1125 1050
+1050 975
+975 900
+900 825
+825 750
+750 675
+675 600
+600 525
+525 450
+450 375
+375 300
+300 225
+225 150
+150 75
+75 0
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Col1-0-Profile-Proxy"]/section/div[1]/div/h3"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.finance.yahoo.com/quote/AMG?p=AMG
+https://uk.finance.yahoo.com/quote/AMG/profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Col1-0-Profile-Proxy"]/section/section[1]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.finance.yahoo.com/quote/AMG?p=AMG
+https://uk.finance.yahoo.com/quote/AMG/profile/
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Col1-0-Profile-Proxy"]/section/section[1]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.finance.yahoo.com/quote/PSHZF?p=PSHZF
+https://uk.finance.yahoo.com/quote/PSHZF/profile/
+No such employees number
+No such employees number
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Col1-0-Profile-Proxy"]/section/section[1]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.finance.yahoo.com/quote/BBAGF?p=BBAGF
+https://uk.finance.yahoo.com/quote/BBAGF/profile/
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+Exception in thread Thread-16:
+Traceback (most recent call last):
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\RaffaeleScarano\Università\Ing Dati\AssignmentTwo\YahooScraperStock.py", line 158, in worker
+    ticker= str(driver.current_url).split("/")[4]
+IndexError: list index out of range
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+No such employees number
+
+Process finished with exit code -1

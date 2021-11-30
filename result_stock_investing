@@ -1,0 +1,171 @@
+C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\python.exe "C:/Users/RaffaeleScarano/Università/Ing Dati/AssignmentTwo/InvestingScraperStock.py"
+[0, 78, 156, 234, 312, 390, 468, 546, 624, 702, 780, 858, 936, 1014, 1092, 1170, 1248]
+1248 1170
+1170 1092
+1092 1014
+1014 936
+936 858
+858 780
+780 702
+702 624
+624 546
+546 468
+468 390
+390 312
+312 234
+234 156
+156 78
+78 0
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/fix-price-group-drc
+https://uk.investing.com/equities/fix-price-group-dr-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/dialog-semicond?cid=948927
+https://uk.investing.com/equities/dialog-semicond-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/dialog-semicond?cid=948927
+https://uk.investing.com/equities/dialog-semicond-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/jd-sports-fashion
+https://uk.investing.com/equities/jd-sports-fashio-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\RaffaeleScarano\Università\Ing Dati\AssignmentTwo\InvestingScraperStock.py", line 151, in worker
+    driver.get(links[current][:pos] + "-company-profile/")
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\RaffaeleScarano\anaconda3\envs\AssignmentTwo\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: headless chrome=96.0.4664.45)
+
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/hicl-infrastructure
+https://uk.investing.com/equities/hicl-infrastructur-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/iliad?cid=948725
+https://uk.investing.com/equities/iliad-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/iliad?cid=948725
+https://uk.investing.com/equities/iliad-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/klovern-ab-pref?cid=989822
+https://uk.investing.com/equities/klovern-ab-pref-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/klovern-ab-pref?cid=989822
+https://uk.investing.com/equities/klovern-ab-pref-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/man-ag?cid=948674
+https://uk.investing.com/equities/man-ag-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/man-ag?cid=948674
+https://uk.investing.com/equities/man-ag-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/dnb-nor?cid=948897
+https://uk.investing.com/equities/dnb-nor-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/sequoia-economic-infrastructure
+https://uk.investing.com/equities/sequoia-economic-infrastructur-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/alliance-trust-plc-ord-shs-25p
+https://uk.investing.com/equities/alliance-trust-plc-ord-shs-25-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/calisen-plc
+https://uk.investing.com/equities/calisen-pl-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/calisen-plc
+https://uk.investing.com/equities/calisen-pl-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/merian-chrysalis
+https://uk.investing.com/equities/merian-chrysali-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/baillie-gifford-us-growth
+https://uk.investing.com/equities/baillie-gifford-us-growt-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/devolver-digital
+https://uk.investing.com/equities/devolver-digita-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/aggreko
+https://uk.investing.com/equities/aggrek-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/aggreko
+https://uk.investing.com/equities/aggrek-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/div[10]/div[1]/div[4]/span[3]/a"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/st-modwen-property
+https://uk.investing.com/equities/st-modwen-propert-company-profile/
+Failed to insert Python variable into sqlite table UNIQUE constraint failed: stock_company.ticker, stock_company.source
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/st-modwen-property
+https://uk.investing.com/equities/st-modwen-propert-company-profile/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftColumn"]/table/tbody"}
+  (Session info: headless chrome=96.0.4664.45)
+
+https://uk.investing.com/equities/drillisch?cid=948499
+https://uk.investing.com/equities/drillisch-company-profile/
+
+Process finished with exit code -1

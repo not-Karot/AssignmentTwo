@@ -155,8 +155,7 @@ def worker(start, end):
                 print("No such employees number")
                 employees=0
 
-            ticker= str(driver.current_url).split("/")[4]
-
+            ticker = str(driver.current_url).split("/")[4]
             companyMetadata = (
                 ticker,
                 driver.find_element_by_xpath('//*[@id="Col1-0-Profile-Proxy"]/section/div[1]/div/h3').text,
@@ -164,17 +163,12 @@ def worker(start, end):
                 headquarter,
                 employees,
                 driver.find_element_by_xpath('//*[@id="Col1-0-Profile-Proxy"]/section/div[1]/div/div/p[2]/span[4]').text
-
             )
             insertCompany(companyMetadata)
-
         except selenium.common.exceptions.NoSuchElementException as err:
             print(err)
             print(links[current])
             print(links[current][:pos] + "/profile/")
-
-
-
         try:
             scrapeEmployees(
                 driver.find_element_by_xpath('//*[@id="Col1-0-Profile-Proxy"]/section/section[1]/table/tbody'), ticker)
@@ -197,10 +191,7 @@ def defineScrapeRanges(start, end, threads):
 
 
 if __name__ == '__main__':
-    # links = get_all_links(config.PATH_TO_YAHOO)
-    # print(len(links))
-    # pickle.dump(links, open('yahoo_links.p', 'wb'))
-    # obj = pickle.load(open('yahoo_links.p', 'rb'))
+    links = get_all_links(config.PATH_TO_YAHOO)
+    pickle.dump(links, open('yahoo_links.p', 'wb'))
     startScraping(0, 1200, 16)
-    # print(len(obj))
-    # worker(0, 1250)
+

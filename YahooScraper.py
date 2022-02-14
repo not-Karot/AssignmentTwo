@@ -144,7 +144,7 @@ def worker(start, end):
         executable_path=r'C:\Users\RaffaeleScarano\Università\Ing Dati\AssignmentTwo\chromedriver.exe',
         options=chrome_options)
 
-    links = pickle.load(open('yahoo_links.p', 'rb'))
+    links = pickle.load(open('yahoo_links_v1.p', 'rb'))
     while current < ending:
         # name, website, headquarter, employees, industry, type, source)
         pos = links[current].find('?')
@@ -211,8 +211,8 @@ def defineScrapeRanges(start, end, threads):
 if __name__ == '__main__':
     # links = get_all_links(config.PATH_TO_YAHOO)
     # print(len(links))
-    # pickle.dump(links, open('yahoo_links.p', 'wb'))
-    # obj = pickle.load(open('yahoo_links.p', 'rb'))
+    # pickle.dump(links, open('yahoo_links_v1.p', 'wb'))
+    # obj = pickle.load(open('yahoo_links_v1.p', 'rb'))
     startScraping(0, 1200, 16)
     # print(len(obj))
     # worker(0, 1250)

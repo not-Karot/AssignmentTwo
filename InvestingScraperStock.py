@@ -142,7 +142,7 @@ def worker(start, end):
     driver = webdriver.Chrome(
         executable_path=r'C:\Users\RaffaeleScarano\Università\Ing Dati\AssignmentTwo\chromedriver.exe', options=chrome_options)
 
-    links = pickle.load(open('investing_links.p', 'rb'))
+    links = pickle.load(open('investing_links_v2.p', 'rb'))
     while current < ending:
         pos = links[current].find('?')
         if pos == -1:
@@ -195,9 +195,7 @@ def defineScrapeRanges(start, end, threads):
 
 
 if __name__ == '__main__':
-    #links = get_all_links(config.PATH_TO_INVESTING)
-    #pickle.dump(links, open('investing_links.p', 'wb'))
-    #obj = pickle.load(open('investing_links.p', 'rb'))
+    #links = get_all_links("https://uk.investing.com/stock-screener/?sp=country::4|sector::a|industry::a|equityType::a|exchange::a%3Ceq_market_cap;26")
+    #pickle.dump(links, open('investing_links_v2.p', 'wb'))
     startScraping(0, 1248, 16)
-    #print(len(obj))
-    #worker(0, 1250)
+

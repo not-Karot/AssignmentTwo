@@ -103,7 +103,9 @@ def get_all_links(path):
             ec.presence_of_all_elements_located((By.XPATH, '//*[@id="scr-res-table"]/div[1]/table/tbody/tr/td/a')))
         # companies = driver.find_elements_by_xpath('//*[@id="resultsTable"]/tbody/tr/td/a')
         links.extend([c.get_attribute('href') for c in companies])
-        driver.find_element_by_xpath('//*[@id="scr-res-table"]/div[2]/button[3]').click()
+        driver.find_element_by_xpath('//*[@id="scr-res-table"]/div[2]/button[3]').click() #nextpage
+        #driver.find_element_by_xpath('// *[ @ id = "scr-res-table"] / div[2] / button[2] / span / span').click() #prev page
+
         print(i)
         sleep(5)
     return links
@@ -129,7 +131,7 @@ def worker(start, end):
         executable_path=r'C:\Users\RaffaeleScarano\Università\Ing Dati\AssignmentTwo\chromedriver.exe',
         options=chrome_options)
 
-    links = pickle.load(open('yahoo_links.p', 'rb'))
+    links = pickle.load(open('yahoo_links_v2.p', 'rb'))
     while current < ending:
         # name, website, headquarter, employees, industry, type, source)
         pos = links[current].find('?')
@@ -191,7 +193,7 @@ def defineScrapeRanges(start, end, threads):
 
 
 if __name__ == '__main__':
-    links = get_all_links(config.PATH_TO_YAHOO)
-    pickle.dump(links, open('yahoo_links.p', 'wb'))
-    startScraping(0, 1200, 16)
+    #links = get_all_links('https://uk.finance.yahoo.com/screener/unsaved/a7bc8e4f-4b67-4058-b656-b73f35a7f427?count=100&dependentField=sector&dependentValues=&offset=1500')
+    #pickle.dump(links, open('yahoo_links_v2.p', 'wb'))
+    startScraping(0,  1200, 16)
 
